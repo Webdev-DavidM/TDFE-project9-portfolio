@@ -116,7 +116,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url('/images/code-image.png');
+  background-image: url('./images/code-image.png');
 
   /* Set a specific height */
   height: 1000px;
@@ -130,7 +130,7 @@ body {
 
 .parallax1 {
   /* The image used */
-  background-image: url('/images/code-image-1.png');
+  background-image: url('./images/code-image-1.png');
 
   /* Set a specific height */
   height: 1000px;
@@ -144,7 +144,7 @@ body {
 
 .parallax3 {
   /* The image used */
-  background-image: url('/images/code-image-3.png');
+  background-image: url('./images/code-image-3.png');
 
   /* Set a specific height */
   height: 1000px;
