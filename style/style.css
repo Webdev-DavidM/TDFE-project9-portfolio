@@ -142,6 +142,10 @@ body {
   background-size: cover;
 }
 
+a {
+  margin: auto;
+}
+
 .parallax3 {
   /* The image used */
   background-image: url('../images/code-image-3.png');
@@ -190,8 +194,11 @@ body {
   margin: auto;
 }
 
-.icon-container svg {
-  width: 50%;
+.contact-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
 }
 
 .rectangle:hover {
