@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice 1</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#0091FF" x="0.5" y="0.5" width="199" height="199" rx="25"></rect>
+        <g filter="url(#filter-1)" id="email">
+            <g transform="translate(20.000000, 39.000000)">
+                <path d="M145.9375,0 L14.0625,0 C6.318125,0 0,6.31125 0,14.0625 L0,107.8125 C0,115.5375 6.29,121.875 14.0625,121.875 L145.9375,121.875 C153.6625,121.875 160,115.585 160,107.8125 L160,14.0625 C160,6.3375 153.71,0 145.9375,0 Z M143.995625,9.375 L80.298125,73.0728125 L16.0496875,9.375 L143.995625,9.375 Z M9.375,105.87125 L9.375,15.9590625 L54.5246875,60.7215625 L9.375,105.87125 Z M16.0040625,112.5 L61.1821875,67.321875 L77.0125,83.01625 C78.845,84.833125 81.8021875,84.8271875 83.6271875,83.001875 L99.0625,67.5665625 L143.995937,112.5 L16.0040625,112.5 Z M150.625,105.870937 L105.691563,60.9375 L150.625,16.00375 L150.625,105.870937 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

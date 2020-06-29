@@ -1,7 +1,5 @@
 /* This section includes the jquery will allows the page to scroll down to the relevant section when the user clicks it */
 
-console.log('hello');
-
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $('a').on('click', function (event) {
@@ -19,7 +17,7 @@ $(document).ready(function () {
         {
           scrollTop: $(hash).offset().top,
         },
-        800,
+        1000,
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
@@ -27,4 +25,14 @@ $(document).ready(function () {
       );
     } // End if
   });
+});
+
+let email = document.querySelector('.email');
+
+email.addEventListener('onmouseover', () => {
+  style = 'cursor: pointer;';
+});
+
+email.addEventListener('click', () => {
+  console.log('email clicked');
 });

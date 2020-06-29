@@ -2,14 +2,56 @@
 
 body {
   background-color: #474b4f;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.modal-content img {
+  padding: 20px;
+}
+
+.skills {
+  height: 2500px;
+}
+
+.icon-container {
+  margin: auto;
+}
+
+.icon-container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-photo {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: auto;
+}
+
+.my-btn-style a {
+  color: white;
+}
+
+.my-btn-style {
+  width: 420px;
+  margin: 30px auto;
+  height: 50px;
+}
+
+.full-stack1 {
+  padding-top: 50px;
+  color: #86c232;
+}
+
 .full-stack {
   color: #86c232;
+  padding-top: 20px;
 }
 /* navbar section */
 
@@ -30,8 +72,8 @@ body {
 /* portfolio section */
 
 .container {
-  background-color: #61892f;
   color: white;
+  padding: 80px;
 }
 
 .portfolio-image {
@@ -45,7 +87,7 @@ body {
 }
 
 .photo-overlay {
-  color: #474b4f;
+  color: #86c232;
   position: absolute;
   top: 0;
   right: 0;
@@ -53,6 +95,7 @@ body {
   left: 0;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: #474b4f;
 
   display: flex; /* For centering text inside .photo-overlay */
   flex-direction: column;
@@ -66,7 +109,7 @@ body {
 /* Intro section */
 
 .intro {
-  padding-top: 250px;
+  padding-top: 100px;
 }
 
 /* parallel scrolling effect css */
@@ -85,6 +128,83 @@ body {
   background-size: cover;
 }
 
+.parallax1 {
+  /* The image used */
+  background-image: url('/images/code-image-1.png');
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url('/images/code-image-3.png');
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* skills section */
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+/* contact section */
+
+.contact {
+  height: 800px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-details {
+  margin: auto;
+}
+
+.icon-container {
+  margin: auto;
+}
+
+.icon-container svg {
+
+  width: 25%;
+}
+
+#Rectangle:hover {
+  fill: #7eabcd;
+}
+
+h5 {
+  padding-top: 40px;
+  margin:auto;
+  text-align: center;
+  
+
 /* First breakpoint for tablets 768px */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -92,8 +212,17 @@ body {
     font-size: 4rem;
   }
 
+  .contact {
+    height: 1000px;
+  }
+
   h2 {
     font-size: 3rem;
+  }
+
+  .icon-container svg {
+    margin-top: 150px;
+    width: 75%;
   }
 }
 
@@ -102,6 +231,13 @@ body {
 @media (min-width: 1024px) {
   h1 {
     font-size: 5rem;
+  }
+  .intro {
+    padding-top: 100px;
+  }
+  .skills,
+  .contact {
+    height: 1000px;
   }
 
   h2 {
