@@ -191,7 +191,7 @@ body {
 }
 
 .icon-container svg {
-  width: 25%;
+  width: 50%;
 }
 
 .rectangle:hover {
@@ -222,6 +222,12 @@ h5 {
   .icon-container svg {
     margin-top: 150px;
     width: 75%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 990) {
+  .photo-overlay {
+    height: 40px;
   }
 }
 
