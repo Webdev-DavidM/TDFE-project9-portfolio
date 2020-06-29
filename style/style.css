@@ -232,7 +232,7 @@ h5 {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 990) {
+@media (min-width: 1024px) and (max-width: 990px) {
   .photo-overlay {
     height: 40px;
   }
