@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+h4 {
+  font-size: 14px;
+}
+
 .modal-content img {
   padding: 20px;
 }
@@ -39,7 +43,7 @@ body {
 }
 
 .my-btn-style {
-  width: 420px;
+  width: 200px;
   margin: 30px auto;
   height: 50px;
 }
@@ -218,12 +222,26 @@ h5 {
     font-size: 4rem;
   }
 
+  .intro {
+    padding-top: 0px;
+  }
+
+  .my-btn-style {
+    width: 420px;
+    margin: 30px auto;
+    height: 50px;
+  }
+
   .contact {
     height: 1000px;
   }
 
   h2 {
     font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 30px;
   }
 
   .icon-container svg {
@@ -236,6 +254,10 @@ h5 {
   .photo-overlay {
     height: 40px;
   }
+
+  .intro {
+    padding-top: 0px;
+  }
 }
 
 /* Second breakpoint for laptops 1024px */
@@ -244,9 +266,11 @@ h5 {
   h1 {
     font-size: 5rem;
   }
+
   .intro {
-    padding-top: 100px;
+    padding-top: 0px;
   }
+
   .skills,
   .contact {
     height: 1000px;
@@ -254,5 +278,13 @@ h5 {
 
   h2 {
     font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  .intro {
+    padding-top: 100px;
   }
 }
