@@ -23,16 +23,7 @@ $(document).ready(function () {
           window.location.hash = hash;
         }
       );
-    } // End if
+      // End if
+    }
   });
-});
-
-let email = document.querySelector('.email');
-
-email.addEventListener('onmouseover', () => {
-  style = 'cursor: pointer;';
-});
-
-email.addEventListener('click', () => {
-  console.log('email clicked');
 });
