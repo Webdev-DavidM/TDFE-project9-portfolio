@@ -27,3 +27,25 @@ $(document).ready(function () {
     }
   });
 });
+
+const title = document.querySelectorAll('.title-fade');
+
+window.addEventListener('scroll', () => {
+  title.forEach((title) => {
+    const windowScroll = window.scrollY + window.innerHeight;
+    // console.log(
+    //   'This is the distance in pixels from the title to the top of the screen',
+    //   title.offsetTop,
+    //   'This is the the measurement which had the screen height and how far it has scrolled',
+    //   windowScroll
+    // );
+    const titleBottom = title.offsetTop + 40;
+    // console.log(titleBottom);
+    const isNotScrolledPast = window.scrollY < titleBottom;
+    if (windowScroll > title.offsetTop && isNotScrolledPast) {
+      title.classList.add('active');
+    } else {
+      title.classList.remove('active');
+    }
+  });
+});
