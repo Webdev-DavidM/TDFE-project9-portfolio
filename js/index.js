@@ -23,10 +23,18 @@ $(document).ready(function () {
           window.location.hash = hash;
         }
       );
-      // End if
     }
   });
 });
+
+document
+  .querySelector('.navbar-collapse')
+  .addEventListener('click', function (e) {
+    this.classList.add('collapsing');
+    setTimeout(() => {
+      this.classList.remove('show collapsing');
+    }, 500);
+  });
 
 const title = document.querySelectorAll('.title-fade');
 

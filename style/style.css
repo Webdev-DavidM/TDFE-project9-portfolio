@@ -5,12 +5,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.card-text {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
 
 h2 {
   margin-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
 }
 
 h4 {
@@ -39,11 +47,14 @@ h4 {
   height: 40px;
   width: auto;
   border-radius: 50%;
-  margin-right: auto;
 }
 
 .my-btn-style a {
   color: white;
+}
+
+.nav-text {
+  font-size: 16px;
 }
 
 .my-btn-style {
@@ -62,6 +73,14 @@ h4 {
   padding-top: 20px;
 }
 /* navbar section */
+
+.my-photo {
+  margin-right: auto;
+}
+
+.nav-button1 {
+  margin-right: 0 !important;
+}
 
 .nav-bar1 {
   background-color: #6b6e70;
@@ -235,6 +254,14 @@ h5 {
     font-size: 4rem;
   }
 
+  .nav-button1 {
+    margin-right: 2rem !important;
+  }
+
+  .my-photo {
+    margin-right: auto;
+  }
+
   .intro {
     padding-top: 0px;
   }
@@ -268,6 +295,14 @@ h5 {
     height: 40px;
   }
 
+  .nav-button1 {
+    margin-right: 2rem !important;
+  }
+
+  .my-photo {
+    margin-right: auto;
+  }
+
   .intro {
     padding-top: 0px;
   }
@@ -282,6 +317,10 @@ h5 {
 
   .intro {
     padding-top: 0px;
+  }
+
+  .my-photo {
+    margin-right: auto;
   }
 
   .skills,
