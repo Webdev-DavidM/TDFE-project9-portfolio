@@ -30,10 +30,10 @@ $(document).ready(function () {
 document
   .querySelector('.navbar-collapse')
   .addEventListener('click', function (e) {
-    this.classList.add('collapsing');
+    // this.classList.add('collapsing');
     setTimeout(() => {
-      this.classList.remove('show collapsing');
-    }, 500);
+      this.classList.remove('show');
+    }, 1000);
   });
 
 const title = document.querySelectorAll('.title-fade');
