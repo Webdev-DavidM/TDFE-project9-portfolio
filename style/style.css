@@ -2,7 +2,7 @@
 
 body {
   background-color: #474b4f;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-text {
@@ -24,6 +24,13 @@ h2 {
 h4 {
   font-size: 14px;
 }
+
+/* .modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+} */
 
 .modal-content img {
   padding: 20px;
@@ -61,6 +68,9 @@ h4 {
   width: 200px;
   margin: 30px auto;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .full-stack1 {
@@ -143,7 +153,7 @@ h4 {
 
 .parallax {
   /* The image used */
-  background-image: url('../images/code-image.png');
+  background-image: url("../images/code-image.png");
 
   /* Set a specific height */
   height: 1000px;
@@ -157,7 +167,7 @@ h4 {
 
 .parallax1 {
   /* The image used */
-  background-image: url('../images/code-image-1.png');
+  background-image: url("../images/code-image-1.png");
 
   /* Set a specific height */
   height: 1000px;
@@ -175,7 +185,7 @@ a {
 
 .parallax3 {
   /* The image used */
-  background-image: url('../images/code-image-3.png');
+  background-image: url("../images/code-image-3.png");
 
   /* Set a specific height */
   height: 1000px;
